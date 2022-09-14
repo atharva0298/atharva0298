@@ -19,4 +19,5 @@
 
 .list ul li {
     cursor: pointer;
+    text-decoration: underline;
 }
