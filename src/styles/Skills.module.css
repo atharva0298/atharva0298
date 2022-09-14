@@ -17,6 +17,7 @@
     border: 1px solid grey;
     margin: 10px;
     /* padding: 5px; */
+    width: 500px;
 
 }
 
@@ -25,7 +26,39 @@
  
     height: 25vh;
     padding: 5px;
-    background: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+    background-image: url('../Components/images/brand-building.jpg');
+    background-size: 500px;
+
+}
+
+.skillsbackground2{
+    /* margin: 10px; */
+ 
+    height: 25vh;
+    padding: 5px;
+    background-image: url('../Components/images/spreadsheet.jpg');
+    background-size: 500px;
+
+}
+
+.skillsbackground3{
+    /* margin: 10px; */
+ 
+    height: 25vh;
+    padding: 5px;
+    background-image: url('../Components/images/email.JPG');
+    background-size: 500px;
+
+}
+
+.skillsbackground4{
+    /* margin: 10px; */
+ 
+    height: 25vh;
+    padding: 5px;
+    background-image: url('../Components/images/managing.jpg');
+    background-size: 500px;
+
 }
 
 .skillsbackground p {

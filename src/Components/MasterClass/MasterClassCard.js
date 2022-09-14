@@ -11,7 +11,7 @@ function MasterClassCard() {
         <p>
         Kushal Lodha
           </p>
-        <p className={styles['date']}>September 25, 2015</p>
+        <p className={styles['date']}></p>
       </div>
     </div>
   )

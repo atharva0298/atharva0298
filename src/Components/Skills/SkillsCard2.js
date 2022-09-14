@@ -4,7 +4,7 @@ import styles from '../../styles/Skills.module.css'
 function SkillsCard() {
   return (
     <div className={styles['skillscard']}>
-      <div className={styles['skillsbackground']}>
+      <div className={styles['skillsbackground2']}>
         <p>Excel</p>
       </div>
       <p className={styles['header']}>Advanced Excel Skills</p>
@@ -14,7 +14,7 @@ function SkillsCard() {
         <p>
           Radhika Apte
           </p>
-        <p className={styles['date']}>September 25, 2015</p>
+        <p className={styles['date']}></p>
       </div>
     </div>
   )

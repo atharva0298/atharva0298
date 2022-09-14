@@ -17,8 +17,8 @@ function Header(props) {
         <img className={styles['jito-round']} src={round} alt='jito-round' />
         <div className={styles['header']}>
           <p onClick={() => props.handleClick('home')}>Home</p>
-          <p onClick={() => props.handleClick('master')}>MasterClass</p>
-          <p onClick={() => props.handleClick('skills')}>Skillset</p>
+          <p onClick={() => props.handleClick('master')}>Masterclass</p>
+          <p onClick={() => props.handleClick('skills')}>Skill</p>
           <p onClick={() => props.handleClick('contact')}>Contact</p>
         </div>
         <img className={styles['jito-youth']} src={coe} alt='jito-youth' />
@@ -35,8 +35,8 @@ function Header(props) {
         null
         :
         <div className={[styles['explore']]}>
-        <p>Learn Skills the fun way!</p>
-        <p>An initiative by JITO National Youth Academy and National Talent Academy</p>
+        <p>JITO se skill seekho!</p>
+        <p>Peer to Peer skill share platform by JYW National Youth Academy</p>
         <button onClick={handleExplore}>Explore</button>
     </div>
       }

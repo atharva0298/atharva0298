@@ -16,11 +16,12 @@
 
 .masterclasscard{
     border-radius: 5px;
-    background: url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=974&q=80');
+    background: url('../Components/images/masterclass.jpg');
     object-fit: contain;
     width: 25%;
     padding: 10px;
     margin: 10px;
+    background-size: 400px;
 }
 
 .masterclasscard:hover{
@@ -40,6 +41,7 @@
     margin-top: 20%;
     color: white;
     font-size: 18px;
+    
     
 
 }
