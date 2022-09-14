@@ -2,6 +2,9 @@
     position: relative;
     /* background: url('../Components/images/backdropheader.jpg'); */
     object-fit: contain;
+    background-color: skyblue;
+    padding-bottom: 20px;
+    padding-right: 10px;
    
 }
 
@@ -88,6 +91,8 @@
 
 .kaushal{
     text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
 }
 
 /* @media (max-width : 426px) {

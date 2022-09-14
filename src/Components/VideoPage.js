@@ -30,7 +30,7 @@ function VideoPage() {
                 <iframe src={embedLink} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen title="video" height={400} width={800} />
             </div>
             <div>
-                <p>description will go here </p>
+                <p>This is video description </p>
             </div>
 
         </div>
