@@ -1,0 +1,132 @@
+.header-with-image{
+    position: relative;
+    /* background: url('../Components/images/backdropheader.jpg'); */
+    object-fit: contain;
+   
+}
+
+/* .header-with-image img{
+ 
+    object-fit: contain;
+    width: 50%;
+} */
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jito-round{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header-main img{
+    width: 100px;
+}
+
+.header{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.header p:hover {
+    transition: all .6s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+.header p:nth-child(2) {
+    margin-left: 15px;
+}
+
+.header p:nth-child(3) {
+    margin-left: 15px;
+}
+
+.header p:nth-child(4) {
+    margin-left: 15px;
+}
+
+.jito-coe{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.jito-coe img{
+    width: 100px;
+}
+.explore{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore button {
+    border-radius: 2px;
+    background-color: #dd783f;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.kaushal{
+    text-align: center;
+}
+
+/* @media (max-width : 426px) {
+    .header{
+       
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jito-coe{
+        margin-top: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .explore p{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .header-main img{
+        width: 100px;
+    }
+
+}
+
+@media (max-width : 1025px) and (min-width : 770px) {
+    .header-main img{
+        width: 200px;
+    }
+}
+
+@media (max-width : 769px) and (min-width : 427px) {
+    .header-main img {
+        width: 100px;
+    }
+} */

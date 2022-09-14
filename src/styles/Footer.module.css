@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    background-color: beige;
+}
+
+.contact{
+    font-size: 20px;
+}
+
+.email {
+    margin-left: 10px;
+}
+
+.whatsapp{
+    margin-left: 10px;
+}

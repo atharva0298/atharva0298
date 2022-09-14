@@ -1,0 +1,89 @@
+.masterclass{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+   padding: 20px;
+}
+
+.masterclasscard{
+    border-radius: 5px;
+    background: url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=974&q=80');
+    object-fit: contain;
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.masterclasscard:hover{
+    transition: all .6s ease-in-out;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.masterclasscard p:nth-child(1){
+    color: #eaebeb;
+    background-color: #a872b7;
+    width: max-content;
+    padding: 5px;
+}
+
+.masterclasscard p:nth-child(2){
+    margin-top: 20%;
+    color: white;
+    font-size: 18px;
+    
+
+}
+
+.masterclasscard p:nth-child(3){
+    color: #eaebeb;
+    font-size: 14px;
+}
+
+.card-footer{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+  
+}
+
+.card-footer p {
+    background: none !important;
+    margin-top: 0px !important;
+    padding: 0 !important;
+    color: #eaebeb;
+    font-size: 10px;
+}
+
+.date{
+    color: #eaebeb !important;
+    font-size: 10px !important;
+}
+
+@media (max-width : 426px) {
+    .cards{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:center ;
+       padding: 20px;
+    }
+
+    .masterclasscard{
+        border-radius: 5px;
+        background: url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=974&q=80');
+        object-fit: contain;
+        width: 70%;
+        padding: 10px;
+        margin: 10px;
+    }
+}
